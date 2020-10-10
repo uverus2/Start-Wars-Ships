@@ -1,0 +1,15 @@
+//Variables
+@import "./Variables/color.scss";
+@import "./Variables/fonts.scss";
+//Mixins
+@import "./Mixins/mixins.scss";
+//General Styles
+@import "./General/utility.scss";
+@import "./General/general.scss";
+//Components
+@import "./Components/Header.scss";
+@import "./Components/Loader.scss";
+@import "./Components/Card.scss";
+@import "./Components/FormStyles.scss";
+//Media Queries
+@import "./General/media_queries.scss";

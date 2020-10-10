@@ -1,0 +1,73 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(320px, 450px));
+    grid-gap: 1.5rem;
+    justify-content: center;
+}
+
+.card-wrap {
+    border: solid 6px $main-text-color;
+    border-radius: 2.5rem;
+    max-width: 450px;
+    width: 100%;
+    box-sizing: border-box;
+    .card-header {
+        padding: 1rem;
+        h4 {
+            color: $main-text-color;
+            font-weight: $bold;
+            @include pt-small;
+        }
+    }
+    .card-image {
+        background-color: $main-text-color;
+        @include py-small;
+        text-align: center;
+        img {
+            width: 100%;
+            max-width: 300px;
+        }
+    }
+    .view-more {
+        @include py-small;
+        text-align: center;
+    }
+    .card-details {
+        padding: 1rem;
+        text-align: left;
+        button {
+            text-align: center;
+            padding: 1rem;
+            font-size: 1.5rem;
+        }
+        span,
+        p {
+            padding: 0.8rem 0;
+            font-size: 2rem;
+            text-align: left;
+        }
+    }
+}
+
+//View More Component
+//No need for seperate file due to the size of styles
+.modal-wrap {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(38, 70, 83, 0.6);
+    @include flex-center;
+    .modal-inner {
+        position: relative;
+        padding: 2rem;
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        max-height: 90vh;
+        top: 0;
+        left: 0;
+        background-color: white;
+    }
+}

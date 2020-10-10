@@ -1,0 +1,89 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+@mixin py-medium {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+@mixin py-small {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+@mixin pb-small {
+    padding-bottom: 1.5rem;
+}
+
+@mixin pb-medium {
+    padding-bottom: 2.5rem;
+}
+
+@mixin pb-big {
+    padding-bottom: 5rem;
+}
+
+@mixin pt-big {
+    padding-top: 5rem;
+}
+
+@mixin pt-medium {
+    padding-top: 2.5rem;
+}
+
+@mixin mt-medium {
+    margin-top: 2.5rem;
+}
+
+@mixin mx-medium {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+@mixin mx-small {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+@mixin pt-small {
+    padding-top: 1.5rem;
+}
+
+@mixin px-big {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+@mixin px-xxl {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+@mixin px-medium {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+@mixin px-small {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@mixin px-none {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@mixin pr-small {
+    padding-right: 1.5rem;
+}

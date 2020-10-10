@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    .main-page {
+        @include px-medium;
+    }
+    .modal-wrap {
+        .modal-inner {
+            padding: 0.5rem;
+            max-height: 95vh;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .modal-wrap {
+        .modal-inner {
+            padding: 0.5rem;
+            max-height: 100vh;
+        }
+    }
+    .main-page {
+        @include px-small;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .card-wrap {
+        max-width: 320px;
+    }
+}

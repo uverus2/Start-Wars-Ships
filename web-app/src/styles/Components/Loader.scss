@@ -1,0 +1,8 @@
+.loader {
+    min-height: 100vh;
+    min-width: 100vw;
+    .load-message {
+        color: $main-text-color;
+        font-size: 2rem;
+    }
+}

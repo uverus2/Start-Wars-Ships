@@ -1,0 +1,15 @@
+.logo {
+    @include flex-center;
+    img {
+        max-width: 200px;
+        width: 100%;
+    }
+}
+
+.header-wrap {
+    background: $main-color;
+    @include py-medium;
+    .header-inner-wrap {
+        @include flex-center;
+    }
+}

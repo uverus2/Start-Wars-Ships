@@ -1,0 +1,38 @@
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    &.flex-col {
+        flex-direction: column;
+    }
+    &.center {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.py-small {
+    @include py-small;
+}
+
+.py-medium {
+    @include py-medium;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
